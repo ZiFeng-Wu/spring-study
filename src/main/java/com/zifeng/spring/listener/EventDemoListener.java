@@ -25,7 +25,7 @@ public class EventDemoListener implements ApplicationListener<EventDemo> {
 
     @Override
     public void onApplicationEvent(EventDemo event) {
-        testTransaction();
+        eventDemoListener.testTransaction();
         System.out.println("receiver " + event.getMessage());
     }
 
