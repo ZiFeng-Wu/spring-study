@@ -2,11 +2,8 @@
 A demo for reproducing Spring ApplicationListener firing twice
 
 # How to run this demo
-**1、Modify the database configuration file in the `./conf/db.properties`**    
-In fact, this Demo does not have any database operations, the configuration is only to support transactions. So here you can configure any local database.    
-![图片](https://user-images.githubusercontent.com/54225332/162198940-67a9377b-c31b-45b7-93ff-e7b4cd78e407.png)    
+**Run the main method of the `StartSpringDemo` class**  
+<img src='https://user-images.githubusercontent.com/54225332/162610592-c730be07-53ac-4137-adab-ba1db11eff11.png' width=800px/>
 
-**2、Run the main method of the `StartSpringDemo` class**
-![图片](https://user-images.githubusercontent.com/54225332/162199847-f24617f9-f46b-4ef9-bc74-b155b789fa1c.png)
 
 
